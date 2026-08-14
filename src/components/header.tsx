@@ -2,7 +2,7 @@ import { Search } from "lucide-react";
 
 export const Header = () => {
   return (
-    <div className="grid grid-cols-12 p-3">
+    <div className="grid grid-cols-12 p-3 border-b border-b-zinc-800 col-span-12 row-span-1">
       <div className="flex col-span-4 gap-2 items-center min-w-300">
         <h1 className="text-white text-lg font-bold uppercase">reqly</h1>
       </div>
