@@ -1,4 +1,4 @@
-import { requestColors, type RequestType } from "./utils";
+import { requestColors, type RequestType } from "../utils";
 
 export const RequestHeader = () => {
   return (

@@ -1,9 +1,9 @@
-import { RequestHeader } from "./requestHeader";
-import { RequestTab } from "./requestTab";
-import { ResponseHeader } from "./responseHeader";
-import { ResponseTab } from "./responseTab";
-import { Sidebar } from "./sidebar";
-import { WorkspaceTab } from "./workspaceTab";
+import { Sidebar } from "lucide-react";
+import { WorkspaceTab } from "./WorkspaceTab";
+import { RequestHeader } from "./request/RequestHeader";
+import { RequestTab } from "./request/RequestTab";
+import { ResponseHeader } from "./response/ResponseHeader";
+import { ResponseTab } from "./response/ResponseTab";
 
 export const Workspace = () => {
   return (

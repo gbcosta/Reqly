@@ -1,5 +1,5 @@
-import { Header } from "./components/header";
-import { Workspace } from "./components/workspace";
+import { Header } from "./components/Header";
+import { Workspace } from "./components/workspace/Workspace";
 import "./index.css";
 
 function App() {
