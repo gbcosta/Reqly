@@ -25,7 +25,7 @@ const TabItem = ({
   return (
     <div
       className="px-4 h-full border-r border-r-zinc-800 flex gap-2 text-white
-            justify-center items-center font-semibold text-md"
+            justify-center items-center font-semibold text-md cursor-pointer hover:bg-zinc-800"
     >
       <span className={`${requestColors.text[requestType]} `}>
         {requestType}
