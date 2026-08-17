@@ -1,4 +1,4 @@
-export type RequestType = "POST" | "GET" | "DELETE" | "PUT" | "PATCH";
+export type HttpMethod = "GET" | "POST" | "PUT" | "PATCH" | "DELETE";
 export const requestColors = {
   bg: {
     GET: "bg-green-500",
