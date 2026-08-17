@@ -1,5 +1,7 @@
 import { RequestHeader } from "./requestHeader";
 import { RequestTab } from "./requestTab";
+import { ResponseHeader } from "./responseHeader";
+import { ResponseTab } from "./responseTab";
 import { Sidebar } from "./sidebar";
 import { WorkspaceTab } from "./workspaceTab";
 
@@ -17,6 +19,14 @@ export const Workspace = () => {
       >
         <RequestHeader />
         <RequestTab />
+      </div>
+
+      <div
+        className="grid grid-cols-5 col-span-5 row-span-11 border-r border-r-zinc-800
+                grid-rows-[repeat(2,48px)_repeat(8,1fr)]"
+      >
+        <ResponseHeader />
+        <ResponseTab />
       </div>
     </div>
   );
